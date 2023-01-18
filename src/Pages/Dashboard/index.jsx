@@ -26,9 +26,9 @@ function DashBoard() {
         </div>
         <section className="section dashboard">
           <Row>
-            <Col xl={9}>
+            <Col xxl={9} xl={8}>
               <Row>
-                <Col xl={4} md={6}>
+                <Col xxl={4} xl={6}>
                   <Card className="info-card">
                     <Card.Body className="card-body">
                       <Card.Title className="card-title">
@@ -51,7 +51,7 @@ function DashBoard() {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={4} md={6}>
+                <Col xxl={4} xl={6}>
                   <Card className="info-card incress-card">
                     <Card.Body className="card-body">
                       <Card.Title className="card-title">
@@ -74,7 +74,7 @@ function DashBoard() {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={4} md={6}>
+                <Col xxl={4} xl={12}>
                   <Card className="info-card decress-card">
                     <Card.Body className="card-body">
                       <Card.Title className="card-title">
@@ -99,7 +99,7 @@ function DashBoard() {
                 </Col>
               </Row>
               <Row>
-                <Col xl={6}>
+                <Col xxl={6} xl={12}>
                   <Card>
                     <Card.Body>
                       <Card.Title>Line Chart</Card.Title>
@@ -107,7 +107,7 @@ function DashBoard() {
                     </Card.Body>
                   </Card>
                 </Col>
-                <Col xl={6}>
+                <Col xxl={6} xl={12}>
                   <Card>
                     <Card.Body>
                       <Card.Title>Bar Chart</Card.Title>
@@ -283,7 +283,7 @@ function DashBoard() {
                 </Col>
               </Row>
             </Col>
-            <Col xl={3}>
+            <Col xxl={3} xl={4}>
               <Card>
                 <Carousel>
                   <Carousel.Item>

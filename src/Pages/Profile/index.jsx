@@ -59,7 +59,7 @@ const Profile = () => {
                 <Tabs
                   defaultActiveKey="profile"
                   id="justify-tab-example"
-                  className="mb-3"
+                  className="mb-3 nav nav-tabs nav-tabs-bordered"
                   justify
                 >
                   <Tab eventKey="home" title="Overview">

@@ -11,11 +11,11 @@ function App() {
   return (
     <>
       <NavigationBar />
-      <DashBoard />
-      <Sidebar />
+      {/* <DashBoard /> */}
+      {/* <Sidebar /> */}
       {/* <Login /> */}
       {/* <Register /> */}
-      {/* <Profile /> */}
+      <Profile />
     </>
   );
 }
