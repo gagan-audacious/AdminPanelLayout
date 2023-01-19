@@ -206,11 +206,7 @@ const Profile = () => {
                           <Form.Label>Phone</Form.Label>
                         </Col>
                         <Col md={8} lg={8} className="mb-3">
-                          <Form.Control
-                            type="text"
-                            placeholder="Enter Phone
-"
-                          />
+                          <Form.Control type="text" placeholder="Enter Phone" />
                         </Col>
                         <Col md={4} lg={4} className="label">
                           <Form.Label>Email</Form.Label>
@@ -218,8 +214,7 @@ const Profile = () => {
                         <Col md={8} lg={8} className="mb-3">
                           <Form.Control
                             type="email"
-                            placeholder="Enter Email
-"
+                            placeholder="Enter Email"
                           />
                         </Col>
                         <Col md={4} lg={4} className="label">
@@ -252,8 +247,7 @@ const Profile = () => {
                         <Col md={8} lg={8} className="mb-3">
                           <Form.Control
                             type="text"
-                            placeholder="Enter Instagram Profile
-"
+                            placeholder="Enter Instagram Profile"
                           />
                         </Col>
                         <Col md={4} lg={4} className="label">
@@ -314,8 +308,7 @@ const Profile = () => {
                         <Col md={8} lg={8} className="mb-3">
                           <Form.Control
                             type="password"
-                            placeholder="Enter Current Password
-"
+                            placeholder="Enter Current Password"
                           />
                         </Col>
                         <Col md={4} lg={4} className="label">
@@ -324,8 +317,7 @@ const Profile = () => {
                         <Col md={8} lg={8} className="mb-3">
                           <Form.Control
                             type="password"
-                            placeholder="Enter New Password
-"
+                            placeholder="Enter New Password"
                           />
                         </Col>
                         <Col md={4} lg={4} className="label">
@@ -334,8 +326,7 @@ const Profile = () => {
                         <Col md={8} lg={8} className="mb-3">
                           <Form.Control
                             type="password"
-                            placeholder="Re-enter New Password
-"
+                            placeholder="Re-enter New Password"
                           />
                         </Col>
                         <div className="text-center pt-4">
